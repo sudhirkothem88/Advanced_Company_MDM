@@ -1,0 +1,9 @@
+
+pandas>=2.0
+numpy
+requests
+tqdm
+rapidfuzz>=3.0.0
+matplotlib
+python-dotenv
+pyarrow
