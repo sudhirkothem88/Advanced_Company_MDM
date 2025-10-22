@@ -5,7 +5,7 @@ Advanced Company Profiling and Data Validation
 This repository implements a practical workflow for profiling company records and validating them against the UK Companies House API. It standardizes names, performs fuzzy matching, enriches records with official identifiers and metadata, and summarizes data quality so you can trust what flows into downstream analytics and master data systems.
 
 The core logic lives in a single Jupyter notebook:
-- **Advanced_Company_Profiling and Data validation.ipynb_version1** : end-to-end workflow for loading input data, validating companies via API, fuzzy-matching names, profiling quality, and exporting results.
+- **advancedCompanyProfiling.ipynb** : end-to-end workflow for loading input data, validating companies via API, fuzzy-matching names, profiling quality, and exporting results.
 
 ## Why this approach
 - **Normalization** reduces trivial text differences while keeping originals intact.
@@ -35,7 +35,7 @@ COMPANIES_HOUSE_API_KEY=<your_api_key_here> # Place your API key here
 ```bash
 jupyter notebook
 ```
-Open `Advanced_Company_Profiling and Data validation_version1.ipynb` and run cells in order.
+Open `advancedCompanyProfiling.ipynb` and run cells in order.
 
 
 ## Outputs
